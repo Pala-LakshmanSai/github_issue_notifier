@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "my chrome extension",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "icons": {
+    "32": "png32.png"
+  }
+}
